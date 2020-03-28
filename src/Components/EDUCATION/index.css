@@ -1,0 +1,54 @@
+#EDUCATION {
+  height: 70vh;
+  transition: 0.5s;
+  padding-left: 20rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.education-title-h {
+  font-size: 35px;
+  opacity: 0.8;
+  letter-spacing: -1px;
+  margin: 35px 0 45px 0;
+}
+.education-warpper-first-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.school-title-p {
+  font-size: 23px;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+.title-second-p {
+  width: 372px;
+}
+.schools-skills-p,
+.school-details-p {
+  color: #576574;
+  font-weight: 500;
+  opacity: 0.8;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 19px;
+}
+.school-details-p {
+  font-size: 15px;
+  margin: 25px 0 20px 0;
+}
+.education-first-year-p {
+  color: #bd5d38;
+  font-size: 15px;
+  margin: 0 20px 70px 0;
+}
+.second-detail-p {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  #EDUCATION {
+    padding: 2rem;
+  }
+}

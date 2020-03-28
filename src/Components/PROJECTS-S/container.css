@@ -1,0 +1,71 @@
+.project-wrapper-div {
+  height: auto;
+  min-height: 100vh;
+  padding-left: 17rem;
+  transition: 0.5s;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.project-title-h {
+  margin: 35px 0 35px 50px;
+  letter-spacing: -1.5px;
+  font-family: "Sen", sans-serif;
+  opacity: 0.8;
+  font-size: 40px;
+  transition: 0.3s;
+}
+.projectbox-wrapper-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.projects-images {
+  height: 40%;
+  width: 99%;
+}
+.projectbox-wrapper-div p {
+  font-family: "Sen", sans-serif;
+}
+.project-title-p {
+  margin-top: 30px;
+}
+.project-skills-use {
+  margin-top: 30px;
+  color: #868e96;
+}
+.project-visit-button {
+  text-transform: uppercase;
+  background: #ffffff;
+  padding: 7px 5px;
+  border: 3px solid #70a1ff !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.5s ease 0s;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.project-visit-button:hover {
+  border-radius: 50px;
+  border-color: #bd5d38 !important;
+}
+.project-visit-a {
+  color: #70a1ff !important;
+  text-decoration: none;
+  font-family: "Sen", sans-serif;
+  font-size: 15px;
+}
+.project-visit-a:hover {
+  color: #bd5d38 !important;
+}
+@media only screen and (max-width: 1000px) {
+  .project-wrapper-div {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .project-title-h {
+    text-align: center;
+    margin: 70px 0 50px 0;
+  }
+}

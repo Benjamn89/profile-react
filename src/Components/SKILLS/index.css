@@ -1,0 +1,53 @@
+#SKILLS {
+  min-height: 70vh;
+  height: auto;
+  padding-left: 20rem;
+  transition: 0.5s;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.skills-p {
+  letter-spacing: -1px;
+}
+.fab {
+  transition: 0.3s;
+  color: #57606f;
+}
+.fab:hover {
+  color: #bd5d38;
+}
+.skills-icon-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills-icon-div img {
+  height: 70px;
+  filter: grayscale(100%);
+}
+.skills-icon-div * {
+  margin: 20px 20px 0 0;
+}
+.add-skills-p {
+  margin-top: 35px;
+  letter-spacing: -1px;
+}
+.add-skills-ul {
+  list-style: none;
+  margin-top: 25px;
+  transform: translateX(-20px);
+}
+.fa-check {
+  color: #576574;
+}
+.skills-ul-p {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  font-size: 15px;
+  transform: translateY(-2px);
+}
+@media only screen and (max-width: 1000px) {
+  #SKILLS {
+    padding: 2rem;
+  }
+}

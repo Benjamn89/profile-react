@@ -1,0 +1,27 @@
+#EXPERIENCE {
+  min-height: 70vh;
+  height: auto;
+  padding-left: 20rem;
+  transition: 0.5s;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.education-first-inside-div ul {
+  color: #576574;
+  font-family: "Noto Sans", sans-serif;
+  margin: 25px 0 25px 0;
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 0.5px;
+}
+.exp-formarg {
+  margin-top: 40px;
+}
+.exp-width-p {
+  width: 735px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #EXPERIENCE {
+    padding: 2rem;
+  }
+}
