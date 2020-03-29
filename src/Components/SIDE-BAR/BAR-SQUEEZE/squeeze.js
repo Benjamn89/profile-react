@@ -40,7 +40,11 @@ class SqueezeBar extends Component {
         <div className="squeeze-titles-div">
           {SideBarTitles.map(el => {
             return (
-              <p onClick={this.clickToScroll} className="squeeze-titles-p">
+              <p
+                key={el}
+                onClick={this.clickToScroll}
+                className="squeeze-titles-p"
+              >
                 {el}
               </p>
             );
