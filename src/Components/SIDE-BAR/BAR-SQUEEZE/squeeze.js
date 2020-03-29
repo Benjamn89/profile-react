@@ -20,6 +20,8 @@ class SqueezeBar extends Component {
     if (innerValue === "MILITARY SERVICE") {
       innerValue = "MILITARY";
     }
+    $(".squeeze-titles-div").toggleClass("squeeze-titles-move");
+    $(".squeeze-titles-p").toggleClass("add-opacity-p");
     jump("#" + innerValue, {
       duration: 500
     });
