@@ -23,7 +23,7 @@ class Education extends Component {
           <p className="education-first-year-p">2017 - Forever</p>
         </div>
         <div className="education-warpper-first-div">
-          <div className="education-second-inside-div">
+          <div className="education-first-inside-div">
             <p className="school-title-p title-second-p">JOHN BRYCE</p>
             <p className="schools-skills-p">IP NETWORKING MANAGER</p>
             <p className="school-details-p second-detail-p">
