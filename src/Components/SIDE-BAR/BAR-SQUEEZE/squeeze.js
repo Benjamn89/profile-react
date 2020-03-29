@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import SideBarTitles from "../side-bar-titles";
+import jump from "jump.js";
 import $ from "jquery";
 import "./squeeze.css";
 
@@ -11,6 +13,16 @@ class SqueezeBar extends Component {
   expand = () => {
     $(".squeeze-titles-div").toggleClass("squeeze-titles-move");
     $(".squeeze-titles-p").toggleClass("add-opacity-p");
+  };
+
+  clickToScroll = e => {
+    var innerValue = e.target.innerHTML;
+    if (innerValue === "MILITARY SERVICE") {
+      innerValue = "MILITARY";
+    }
+    jump("#" + innerValue, {
+      duration: 500
+    });
   };
 
   render() {
@@ -26,13 +38,13 @@ class SqueezeBar extends Component {
           </div>
         </div>
         <div className="squeeze-titles-div">
-          <p className="squeeze-titles-p">SUMMARY</p>
-          <p className="squeeze-titles-p">PROJECTS</p>
-          <p className="squeeze-titles-p">EDUCATION</p>
-          <p className="squeeze-titles-p">EXPERIENCE</p>
-          <p className="squeeze-titles-p">SKILLS</p>
-          <p className="squeeze-titles-p">MILITARY SERVICE</p>
-          <p className="squeeze-titles-p">LANGUAGES</p>
+          {SideBarTitles.map(el => {
+            return (
+              <p onClick={this.clickToScroll} className="squeeze-titles-p">
+                {el}
+              </p>
+            );
+          })}
         </div>
       </div>
     );

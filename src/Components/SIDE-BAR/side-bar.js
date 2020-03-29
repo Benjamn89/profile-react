@@ -2,17 +2,8 @@ import React, { Component } from "react";
 import "./side-bar.css";
 import SqueezeBar from "./BAR-SQUEEZE/squeeze";
 import ProfileImg from "../../media/Myprofile.jpg";
+import SideBarTitles from "./side-bar-titles";
 import jump from "jump.js";
-
-const sideBarTitles = [
-  "SUMMARY",
-  "PROJECTS",
-  "EDUCATION",
-  "EXPERIENCE",
-  "SKILLS",
-  "MILITARY SERVICE",
-  "LANGUAGES"
-];
 
 class SideBar extends Component {
   shouldComponentUpdate() {
@@ -37,7 +28,7 @@ class SideBar extends Component {
         <SqueezeBar />
         <div className="side-bar-div">
           <img className="side-bar-img" src={ProfileImg} alt="progile-img" />
-          {sideBarTitles.map(el => {
+          {SideBarTitles.map(el => {
             return (
               <p onClick={this.clickToScroll} key={el} className="side-bar-p">
                 {el}
