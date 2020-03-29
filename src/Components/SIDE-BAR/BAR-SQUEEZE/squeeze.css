@@ -55,6 +55,7 @@
 }
 .squeeze-titles-move {
   height: 290px;
+  -webkit-transform-style: preserve-3d;
 }
 .squeeze-titles-p {
   letter-spacing: 1px;
