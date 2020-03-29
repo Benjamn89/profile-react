@@ -13,7 +13,7 @@ class Skills extends Component {
   render() {
     console.log("Skills -> RENDER!!!");
     return (
-      <section id="SKILLS">
+      <section id="SKILLS" className="all-sections">
         <h1 className="education-title-h">SKILLS</h1>
         <p className="schools-skills-p skills-p">
           PROGRAMMING LANGUAGES & TOOLS

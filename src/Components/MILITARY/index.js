@@ -10,7 +10,7 @@ class Military extends Component {
   render() {
     console.log("Military -> REDNER!!!");
     return (
-      <section id="MILITARY">
+      <section id="MILITARY" className="all-sections add-flex-sections">
         <h1 className="education-title-h">MILITARY</h1>
         <div className="education-warpper-first-div">
           <p className="school-details-p milit-mar-p">

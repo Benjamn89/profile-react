@@ -1,4 +1,4 @@
-#EDUCATION {
+.all-sections {
   min-height: 70vh;
   height: auto;
   transition: 0.5s;
@@ -46,7 +46,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  #EDUCATION {
+  .all-sections {
     padding: 2rem;
   }
 }

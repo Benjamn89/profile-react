@@ -1,10 +1,10 @@
-#EXPERIENCE {
+/* #EXPERIENCE {
   min-height: 70vh;
   height: auto;
   padding-left: 20rem;
   transition: 0.5s;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
+} */
 .education-first-inside-div ul {
   color: #576574;
   font-family: "Noto Sans", sans-serif;
@@ -15,10 +15,4 @@
 }
 .exp-formarg {
   margin-top: 40px;
-}
-
-@media only screen and (max-width: 1000px) {
-  #EXPERIENCE {
-    padding: 2rem;
-  }
 }

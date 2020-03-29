@@ -1,9 +1,4 @@
-#LANGUAGES {
-  min-height: 70vh;
-  height: auto;
-  padding-left: 20rem;
-  transition: 0.5s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.add-flex-sections {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,10 +9,4 @@
 }
 .fa-award {
   color: #ffa502;
-}
-
-@media only screen and (max-width: 1000px) {
-  #LANGUAGES {
-    padding: 2rem;
-  }
 }

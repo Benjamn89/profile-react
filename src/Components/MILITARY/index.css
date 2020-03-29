@@ -1,19 +1,8 @@
-#MILITARY {
-  min-height: 70vh;
-  height: auto;
-  padding-left: 20rem;
-  transition: 0.5s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.add-flex-sections {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .milit-mar-p {
   margin: 0;
-}
-
-@media only screen and (max-width: 1000px) {
-  #MILITARY {
-    padding: 2rem;
-  }
 }

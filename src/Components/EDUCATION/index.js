@@ -10,7 +10,7 @@ class Education extends Component {
   render() {
     console.log("Education -> RENDER!!!");
     return (
-      <section id="EDUCATION">
+      <section id="EDUCATION" className="all-sections">
         <h1 className="education-title-h">EDUCATION</h1>
         <div className="education-warpper-first-div">
           <div className="education-first-inside-div">
