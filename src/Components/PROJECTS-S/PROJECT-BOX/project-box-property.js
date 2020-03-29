@@ -18,7 +18,7 @@ var ProjectsBoxProperty = [
     objects: {
       projectSum: "My Profile",
       usedSkills: "React",
-      linkTo: "https://priceless-shannon-1714e7.netlify.com/",
+      linkTo: "https://binyamintal.netlify.com/",
       img: ProfileImg,
       alt: "profile"
     }
