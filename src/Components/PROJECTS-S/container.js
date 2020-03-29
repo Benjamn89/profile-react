@@ -38,8 +38,6 @@ class ProjectS extends Component {
               );
             })}
             <ProjectBox />
-            <ProjectBox />
-            <ProjectBox />
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import MinyanImg from "../../../media/Minyan-project.PNG";
 import ProfileImg from "../../../media/Profile-project.PNG";
+import HamburgerImg from "../../../media/Hamburger.PNG";
 
 console.log("ProjectBoxProperty - is operated");
 
@@ -21,7 +22,16 @@ var ProjectsBoxProperty = [
       img: ProfileImg,
       alt: "profile"
     }
+  },
+  {
+    objects: {
+      projectSum: "Hamburger",
+      usedSkills: "React",
+      linkTo: "https://hamburger-binyamin.netlify.com/",
+      img: HamburgerImg,
+      alt: "Hamburger"
+    }
   }
 ];
 
-export { MinyanImg, ProfileImg, ProjectsBoxProperty };
+export { HamburgerImg, MinyanImg, ProfileImg, ProjectsBoxProperty };
