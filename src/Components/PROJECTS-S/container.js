@@ -30,7 +30,6 @@ class ProjectS extends Component {
                       className="project-visit-a"
                       href={el.objects.linkTo}
                       target={el.objects.linkTo}
-                      // rel="nofollow noopener"
                     >
                       Explore
                     </a>
