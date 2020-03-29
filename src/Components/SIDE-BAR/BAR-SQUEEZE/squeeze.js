@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SideBarTitles from "../side-bar-titles";
 import jump from "jump.js";
+import easeInExpo from "../myEasing";
 import $ from "jquery";
 import "./squeeze.css";
 
@@ -23,7 +24,8 @@ class SqueezeBar extends Component {
     $(".squeeze-titles-div").toggleClass("squeeze-titles-move");
     $(".squeeze-titles-p").toggleClass("add-opacity-p");
     jump("#" + innerValue, {
-      duration: 500
+      duration: 700,
+      easing: easeInExpo
     });
   };
 

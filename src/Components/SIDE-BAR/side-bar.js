@@ -4,6 +4,7 @@ import SqueezeBar from "./BAR-SQUEEZE/squeeze";
 import ProfileImg from "../../media/Myprofile.jpg";
 import SideBarTitles from "./side-bar-titles";
 import jump from "jump.js";
+import easeInExpo from "./myEasing";
 
 class SideBar extends Component {
   shouldComponentUpdate() {
@@ -17,7 +18,8 @@ class SideBar extends Component {
       innerValue = "MILITARY";
     }
     jump("#" + innerValue, {
-      duration: 500
+      duration: 700,
+      easing: easeInExpo
     });
   };
 
