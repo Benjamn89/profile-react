@@ -27,11 +27,16 @@ class SummaryS extends Component {
             development as web developer.
           </p>
           <div className="social-media-div">
-            <img
-              className="social-ld-img"
-              src={GithubImg}
-              alt="social-github"
-            />
+            <a
+              href="https://github.com/Benjamn89"
+              target="https://github.com/Benjamn89"
+            >
+              <img
+                className="social-ld-img"
+                src={GithubImg}
+                alt="social-github"
+              />
+            </a>
             <img src={LinkdinImg} alt="social-linkdin" />
           </div>
         </div>
