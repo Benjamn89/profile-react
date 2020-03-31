@@ -9,7 +9,7 @@ var ProjectsBoxProperty = [
   {
     objects: {
       projectSum: "Webapp that finds prayers",
-      usedSkills: "HTML, CSS, JS",
+      usedSkills: "NodeJS, MongoDB",
       linkTo: "https://tal-minyan.herokuapp.com/",
       img: MinyanImg,
       alt: "Minyan"
