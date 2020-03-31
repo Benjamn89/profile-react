@@ -1,7 +1,7 @@
 import MinyanImg from "../../../media/Minyan-project.PNG";
 import ProfileImg from "../../../media/Profile-project.PNG";
 import HamburgerImg from "../../../media/Hamburger.PNG";
-import MyShop from "../../../media/shop-react.PNG";
+import MyShop from "../../../media/shop-react2.PNG";
 
 console.log("ProjectBoxProperty - is operated");
 
