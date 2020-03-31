@@ -1,6 +1,7 @@
 import MinyanImg from "../../../media/Minyan-project.PNG";
 import ProfileImg from "../../../media/Profile-project.PNG";
 import HamburgerImg from "../../../media/Hamburger.PNG";
+import MyShop from "../../../media/shop-react.PNG";
 
 console.log("ProjectBoxProperty - is operated");
 
@@ -31,7 +32,16 @@ var ProjectsBoxProperty = [
       img: HamburgerImg,
       alt: "Hamburger"
     }
+  },
+  {
+    objects: {
+      projectSum: "Shopping Online",
+      usedSkills: "React",
+      linkTo: "https://shoping-with-react.netlify.com/",
+      img: MyShop,
+      alt: "Shopping"
+    }
   }
 ];
 
-export { HamburgerImg, MinyanImg, ProfileImg, ProjectsBoxProperty };
+export { ProjectsBoxProperty };
