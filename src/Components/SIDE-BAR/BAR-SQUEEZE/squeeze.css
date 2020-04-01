@@ -30,7 +30,7 @@
   transition: 0.5s;
 }
 .squeeze-rotate {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 .squeeze-line-div:hover {
   opacity: 1;
