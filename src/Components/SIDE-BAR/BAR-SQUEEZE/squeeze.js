@@ -14,6 +14,7 @@ class SqueezeBar extends Component {
   expand = () => {
     $(".squeeze-titles-div").toggleClass("squeeze-titles-move");
     $(".squeeze-titles-p").toggleClass("add-opacity-p");
+    $(".squeeze-line-div").toggleClass("squeeze-rotate");
   };
 
   clickToScroll = e => {
