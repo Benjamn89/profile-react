@@ -45,7 +45,7 @@ var ProjectsBoxProperty = [
   },
   {
     objects: {
-      projectSum: "Ships Arrival",
+      projectSum: "Arrival Ships To Ashdod Port",
       usedSkills: "React, Redux, thunk",
       linkTo: "https://allalouf.netlify.com/",
       img: Allalouf,
