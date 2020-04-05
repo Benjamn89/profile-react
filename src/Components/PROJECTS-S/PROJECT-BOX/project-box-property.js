@@ -2,6 +2,7 @@ import MinyanImg from "../../../media/Minyan-project.PNG";
 import ProfileImg from "../../../media/Profile-project.PNG";
 import HamburgerImg from "../../../media/Hamburger.PNG";
 import MyShop from "../../../media/shop-react2.PNG";
+import Allalouf from "../../../media/Allalouf.PNG";
 
 console.log("ProjectBoxProperty - is operated");
 
@@ -12,8 +13,8 @@ var ProjectsBoxProperty = [
       usedSkills: "NodeJS, MongoDB",
       linkTo: "https://tal-minyan.herokuapp.com/",
       img: MinyanImg,
-      alt: "Minyan"
-    }
+      alt: "Minyan",
+    },
   },
   {
     objects: {
@@ -21,8 +22,8 @@ var ProjectsBoxProperty = [
       usedSkills: "React",
       linkTo: "https://binyamintal.netlify.com/",
       img: ProfileImg,
-      alt: "profile"
-    }
+      alt: "profile",
+    },
   },
   {
     objects: {
@@ -30,8 +31,8 @@ var ProjectsBoxProperty = [
       usedSkills: "React",
       linkTo: "https://hamburger-binyamin.netlify.com/",
       img: HamburgerImg,
-      alt: "Hamburger"
-    }
+      alt: "Hamburger",
+    },
   },
   {
     objects: {
@@ -39,9 +40,18 @@ var ProjectsBoxProperty = [
       usedSkills: "React",
       linkTo: "https://shoping-with-react.netlify.com/",
       img: MyShop,
-      alt: "Shopping"
-    }
-  }
+      alt: "Shopping",
+    },
+  },
+  {
+    objects: {
+      projectSum: "Ships Arrival",
+      usedSkills: "React, Redux, thunk",
+      linkTo: "https://allalouf.netlify.com/",
+      img: Allalouf,
+      alt: "Allalouf",
+    },
+  },
 ];
 
 export { ProjectsBoxProperty };

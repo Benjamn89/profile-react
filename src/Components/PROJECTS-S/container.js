@@ -15,7 +15,7 @@ class ProjectS extends Component {
         <div className="project-wrapper-div">
           <h1 className="project-title-h">PROJECTS</h1>
           <div className="projectbox-wrapper-div">
-            {ProjectsBoxProperty.map(el => {
+            {ProjectsBoxProperty.map((el) => {
               return (
                 <ProjectBox key={el.objects.alt}>
                   <img
@@ -37,7 +37,6 @@ class ProjectS extends Component {
                 </ProjectBox>
               );
             })}
-            <ProjectBox />
             <ProjectBox />
           </div>
         </div>
