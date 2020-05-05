@@ -33,11 +33,17 @@ class ProjectS extends Component {
                     >
                       Explore
                     </a>
+                    {el.objects.medallie ? (
+                      <img
+                        className="medallie-img"
+                        src={el.objects.medallie}
+                        alt={el.objects.alt}
+                      />
+                    ) : null}
                   </div>
                 </ProjectBox>
               );
             })}
-            <ProjectBox />
           </div>
         </div>
       </section>

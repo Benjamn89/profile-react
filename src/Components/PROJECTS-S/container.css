@@ -43,6 +43,7 @@
   transition: all 0.5s ease 0s;
   margin-top: 20px;
   cursor: pointer;
+  position: relative;
 }
 .project-visit-button:hover {
   border-radius: 50px;
@@ -56,6 +57,12 @@
 }
 .project-visit-a:hover {
   color: #bd5d38 !important;
+}
+.medallie-img {
+  position: absolute;
+  top: 2px;
+  right: -50px;
+  height: 30px;
 }
 @media only screen and (max-width: 1000px) {
   .project-wrapper-div {
