@@ -4,11 +4,9 @@ import "./index.css";
 
 class Exprience extends Component {
   shouldComponentUpdate() {
-    console.log("Experience -> SCP");
     return false;
   }
   render() {
-    console.log("Eperience -> REDNER!!!");
     return (
       <section id="EXPERIENCE" className="all-sections">
         <h1 className="education-title-h">EXPERIENCE</h1>
@@ -17,7 +15,7 @@ class Exprience extends Component {
             <p className="school-title-p">SHIP AGENT</p>
             <p className="schools-skills-p">Allalouf LTD</p>
             <ul>
-              {firstJob.first.map(el => {
+              {firstJob.first.map((el) => {
                 return <li key={el.key}>{el.skills}</li>;
               })}
             </ul>
@@ -30,7 +28,7 @@ class Exprience extends Component {
             <p className="school-title-p exp-width-p">PRIVATE BUSINESS</p>
             <p className="schools-skills-p">Retail Sector</p>
             <ul>
-              {firstJob.second.map(el => {
+              {firstJob.second.map((el) => {
                 return <li key={el.key}>{el.skills}</li>;
               })}
             </ul>

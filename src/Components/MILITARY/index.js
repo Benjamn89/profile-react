@@ -3,12 +3,10 @@ import "./index.css";
 
 class Military extends Component {
   shouldComponentUpdate() {
-    console.log("Military -> SCP");
     return false;
   }
 
   render() {
-    console.log("Military -> REDNER!!!");
     return (
       <section id="MILITARY" className="all-sections add-flex-sections">
         <h1 className="education-title-h">MILITARY</h1>

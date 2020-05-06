@@ -5,12 +5,10 @@ import "./index.css";
 
 class SummaryS extends Component {
   shouldComponentUpdate() {
-    console.log("SummaryS -> SCP");
     return true;
   }
 
   render() {
-    console.log("SummaryS -> RENDER!!!");
     return (
       <section id="SUMMARY">
         <div className="summaryS-wrapper-div">
@@ -22,17 +20,17 @@ class SummaryS extends Component {
             <span className="change-contact-p">NEWBENNYTAL@GMAIL.COM </span>
           </p>
           <p className="summary-lookingfor-p">
-            My Whole life i loved being in front of a computer, i was exited and
+            My whole life i loved being in front of a computer, i was exited and
             passiontae about making things happen with that.
             <br />
             But, i never took a step for making it my profession.
-            <br /> <br />2 years ago i make a decision to HUNT after what i want
-            to my self. <br />I started learning/ exploring/ deepening web
-            development! an as i going on i realize that my passion keep growing
+            <br /> <br />2 years ago i made a decision to HUNT after what i want
+            to myself. <br />I started learning/ exploring/ deepening web
+            development! and as i going on i realize that my passion growing
             more and more.
             <br /> <br />
             Now i need you, to open the door for me for this fascinating world,
-            to give me the chance to make my dream to reality.
+            to give me the chance to prove myself and make my dream to reality.
             <br />
             In return i promise that you will get my 100% every single day, you
             will get an employee who does not give up to himself, who will push

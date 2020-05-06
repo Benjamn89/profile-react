@@ -8,29 +8,27 @@ import easeInExpo from "./myEasing";
 
 class SideBar extends Component {
   shouldComponentUpdate() {
-    console.log("SideBar ->SCP");
     return false;
   }
 
-  clickToScroll = e => {
+  clickToScroll = (e) => {
     var innerValue = e.target.innerHTML;
     if (innerValue === "MILITARY SERVICE") {
       innerValue = "MILITARY";
     }
     jump("#" + innerValue, {
       duration: 700,
-      easing: easeInExpo
+      easing: easeInExpo,
     });
   };
 
   render() {
-    console.log("SideBar -> RENDER!!!");
     return (
       <div className="wrapper-side-bar">
         <SqueezeBar />
         <div className="side-bar-div">
           <img className="side-bar-img" src={ProfileImg} alt="progile-img" />
-          {SideBarTitles.map(el => {
+          {SideBarTitles.map((el) => {
             return (
               <p onClick={this.clickToScroll} key={el} className="side-bar-p">
                 {el}

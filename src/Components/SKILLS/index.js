@@ -15,11 +15,9 @@ import Wordpress from "../../media/wordpress.png";
 
 class Skills extends Component {
   shouldComponentUpdate() {
-    console.log("Skills ->  SCP");
     return false;
   }
   render() {
-    console.log("Skills -> RENDER!!!");
     return (
       <section id="SKILLS" className="all-sections">
         <h1 className="education-title-h">SKILLS</h1>

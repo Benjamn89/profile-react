@@ -6,8 +6,6 @@ import Allalouf from "../../../media/Allalouf.PNG";
 import Sted from "../../../media/sted.png";
 import Medallie from "../../../media/medallie.png";
 
-console.log("ProjectBoxProperty - is operated");
-
 var ProjectsBoxProperty = [
   {
     objects: {

@@ -3,12 +3,10 @@ import "./index.css";
 
 class Education extends Component {
   shouldComponentUpdate() {
-    console.log("Education -> SCP");
     return false;
   }
 
   render() {
-    console.log("Education -> RENDER!!!");
     return (
       <section id="EDUCATION" className="all-sections">
         <h1 className="education-title-h">EDUCATION</h1>

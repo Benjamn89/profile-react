@@ -5,11 +5,9 @@ import "./container.css";
 
 class ProjectS extends Component {
   shouldComponentUpdate() {
-    console.log("ProjectS -> SCP");
     return false;
   }
   render() {
-    console.log("ProjectS -> RENDER!!!");
     return (
       <section id="PROJECTS">
         <div className="project-wrapper-div">
