@@ -20,13 +20,13 @@ class SummaryS extends Component {
             <span className="change-contact-p">NEWBENNYTAL@GMAIL.COM </span>
           </p>
           <p className="summary-lookingfor-p">
-            My whole life i loved being in front of a computer, i was exited and
-            passiontae about making things happen with that.
+            My whole life I loved being in front of a computer, I was excited
+            and passionate about making things happen with.
             <br />
-            But, i never took a step for making it my profession.
-            <br /> <br />2 years ago i made a decision to HUNT after what i want
-            to myself. <br />I started learning/ exploring/ deepening web
-            development! and as i going on i realize that my passion growing
+            But, I never took a step for making it my profession.
+            <br /> <br />2 years ago i decided to HUNT after what i want to
+            myself. <br />I started learning/ exploring/ deepening web
+            development! And as i going on i realize that my passion growing
             more and more.
             <br /> <br />
             Now i need you, to open the door for me for this fascinating world,
