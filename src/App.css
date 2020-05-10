@@ -2,9 +2,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-.App {
-  /* text-align: center; */
+img {
+  user-select: none;
 }
 
 .App-logo {

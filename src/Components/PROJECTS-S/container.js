@@ -14,6 +14,10 @@ class ProjectS extends Component {
           <h1 className="project-title-h">PROJECTS</h1>
           <div className="projectbox-wrapper-div">
             {ProjectsBoxProperty.map((el) => {
+              var toolsArr = [];
+              el.objects.tools.map((tool) => {
+                return toolsArr.push(<li>{tool}</li>);
+              });
               return (
                 <ProjectBox key={el.objects.alt}>
                   <img
@@ -24,6 +28,10 @@ class ProjectS extends Component {
                   <p className="project-title-p">{el.objects.projectSum}</p>
                   <p className="project-skills-use">{el.objects.usedSkills}</p>
                   <div className="project-visit-button">
+                    <div className="hover-project-div">
+                      <ul>Tools In Depth</ul>
+                      {toolsArr}
+                    </div>
                     <a
                       className="project-visit-a"
                       href={el.objects.linkTo}

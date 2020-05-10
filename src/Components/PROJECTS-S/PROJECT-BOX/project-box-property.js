@@ -15,6 +15,17 @@ var ProjectsBoxProperty = [
       img: Sted,
       alt: "Sted",
       medallie: Medallie,
+      tools: [
+        "Create React App",
+        "React Router with dyanmic routes",
+        "Redux",
+        "Thunk",
+        "FaundaDB - NoSQL database with real time data",
+        "Firebase Storage bucket for loading media",
+        "Full communicate Front end - Backend",
+        "Authentication via database",
+        "Local Storage",
+      ],
     },
   },
   {
@@ -24,6 +35,13 @@ var ProjectsBoxProperty = [
       linkTo: "https://allalouf.netlify.com/",
       img: Allalouf,
       alt: "Allalouf",
+      tools: [
+        "Create React App",
+        "Redux",
+        "Thunk",
+        "FaunaDB - NoSQL database",
+        "React-Select",
+      ],
     },
   },
   {
@@ -33,6 +51,7 @@ var ProjectsBoxProperty = [
       linkTo: "https://shoping-with-react.netlify.com/",
       img: MyShop,
       alt: "Shopping",
+      tools: ["Create React App", "Redux"],
     },
   },
   {
@@ -42,6 +61,7 @@ var ProjectsBoxProperty = [
       linkTo: "https://hamburger-binyamin.netlify.com/",
       img: HamburgerImg,
       alt: "Hamburger",
+      tools: ["Create React App", "Redux"],
     },
   },
   {
@@ -51,6 +71,13 @@ var ProjectsBoxProperty = [
       linkTo: "https://tal-minyan.herokuapp.com/",
       img: MinyanImg,
       alt: "Minyan",
+      tools: [
+        "NodeJS",
+        "Express",
+        "MongoDB",
+        "Sendgrid - For sending Emails",
+        "Select2",
+      ],
     },
   },
   {
@@ -60,6 +87,9 @@ var ProjectsBoxProperty = [
       linkTo: "https://binyamintal.netlify.com/",
       img: ProfileImg,
       alt: "profile",
+      tools: [
+        "Create React App (for practicing React syntax/ reuse of React components",
+      ],
     },
   },
 ];
