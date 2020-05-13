@@ -18,7 +18,7 @@ class Education extends Component {
               Focus on wide learning i.o specific professionalism
             </p>
           </div>
-          <p className="education-first-year-p">2017 - Forever</p>
+          <p className="education-first-year-p">2019 - Forever</p>
         </div>
         <div className="education-warpper-first-div">
           <div className="education-first-inside-div">
