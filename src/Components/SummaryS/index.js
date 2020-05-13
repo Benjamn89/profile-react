@@ -24,10 +24,10 @@ class SummaryS extends Component {
             and passionate about making things happen with.
             <br />
             But, I never took a step for making it my profession.
-            <br /> <br />2 years ago i decided to HUNT after what I want to
-            myself. <br />I started learning/ exploring/ deepening web
-            development! And as i going on i realize that my passion growing
-            more and more.
+            <br /> <br />
+            In january 2019 i decided to HUNT after what I want to myself.{" "}
+            <br />I started learning/ exploring/ deepening web development! And
+            as i going on i realize that my passion growing more and more.
             <br /> <br />
             Now I need you, to open the door for me for this fascinating world,
             to give me the chance to prove myself and make my dream to reality.
