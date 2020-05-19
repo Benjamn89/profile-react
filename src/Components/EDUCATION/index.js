@@ -12,11 +12,8 @@ class Education extends Component {
         <h1 className="education-title-h">EDUCATION</h1>
         <div className="education-warpper-first-div">
           <div className="education-first-inside-div">
-            <p className="school-title-p">SELF LEARNING</p>
+            <p className="school-title-p">Self-Taught</p>
             <p className="schools-skills-p">Web Developing - Programming</p>
-            <p className="school-details-p">
-              Focus on wide learning i.o specific professionalism
-            </p>
           </div>
           <p className="education-first-year-p">2019 - Forever</p>
         </div>
