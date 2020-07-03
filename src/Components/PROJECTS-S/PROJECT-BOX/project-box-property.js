@@ -3,6 +3,7 @@ import Allalouf from "../../../media/Allalouf.PNG";
 import Sted from "../../../media/sted.png";
 import Medallie from "../../../media/medallie.png";
 import ToyShop from "../../../media/toy-shop.png";
+import Freelance from "../../../media/freelance.jpg";
 
 var ProjectsBoxProperty = [
   {
@@ -45,17 +46,20 @@ var ProjectsBoxProperty = [
   },
   {
     objects: {
-      projectSum: "Arrival Ships To Ashdod Port",
-      usedSkills: "React, Redux, thunk",
-      linkTo: "https://allalouf.netlify.com/",
-      img: Allalouf,
-      alt: "Allalouf",
+      projectSum: "My Freelance",
+      usedSkills: "Pure HTML, VanillaJS, SASS",
+      linkTo: "https://benjamn.netlify.app/",
+      img: Freelance,
+      alt: "Freelance",
+      medallie: Medallie,
       tools: [
-        "Create React App",
-        "Redux",
-        "Thunk(Middleware)",
-        "FaunaDB - NoSQL database",
-        "React-Select",
+        "Time to prove my design skills",
+        "Pure HTML, SASS, VanillaJS",
+        "Everything done by me (without using Wordpress/ plugins/ frameworks)",
+        "Hard coding from scratch",
+        "Full responsive for all screen sizes (Tablets/ Phones/ PC)",
+        "Figma (Design tool for creating svg files)",
+        "Adobe Photoshop cc 2020",
       ],
     },
   },
@@ -72,6 +76,22 @@ var ProjectsBoxProperty = [
         "MongoDB",
         "Sendgrid - For sending Emails",
         "Select2",
+      ],
+    },
+  },
+  {
+    objects: {
+      projectSum: "Arrival Ships To Ashdod Port",
+      usedSkills: "React, Redux, thunk",
+      linkTo: "https://allalouf.netlify.com/",
+      img: Allalouf,
+      alt: "Allalouf",
+      tools: [
+        "Create React App",
+        "Redux",
+        "Thunk(Middleware)",
+        "FaunaDB - NoSQL database",
+        "React-Select",
       ],
     },
   },
