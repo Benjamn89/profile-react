@@ -71,7 +71,6 @@ var ProjectsBoxProperty = [
       linkTo: "http://oled.netlify.com/",
       img: Oled,
       alt: "Oled",
-      medallie: Medallie,
       tools: [
         "Sass / VanillaJS",
         "CSS Grid",
