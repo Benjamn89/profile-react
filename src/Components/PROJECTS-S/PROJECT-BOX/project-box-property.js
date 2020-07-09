@@ -4,6 +4,7 @@ import Sted from "../../../media/sted.png";
 import Medallie from "../../../media/medallie.png";
 import ToyShop from "../../../media/toy-shop.png";
 import Freelance from "../../../media/freelance.jpg";
+import Oled from "../../../media/oled.png";
 
 var ProjectsBoxProperty = [
   {
@@ -60,6 +61,24 @@ var ProjectsBoxProperty = [
         "Full responsive for all screen sizes (Tablets/ Phones/ PC)",
         "Figma (Design tool for creating svg files)",
         "Adobe Photoshop cc 2020",
+      ],
+    },
+  },
+  {
+    objects: {
+      projectSum: "OLED Led",
+      usedSkills: "Pure HTML, VanillaJS, SASS",
+      linkTo: "http://oled.netlify.com/",
+      img: Oled,
+      alt: "Oled",
+      medallie: Medallie,
+      tools: [
+        "Sass / VanillaJS",
+        "CSS Grid",
+        "Figma",
+        "Adobe Photoshop cc 2020",
+        "Hard coding from scratch",
+        "Full responsive for all screen sizes (Tablets/ Phones/ PC)",
       ],
     },
   },
