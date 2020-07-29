@@ -1,9 +1,14 @@
+#SUMMARY {
+  height: auto;
+}
+
 .summaryS-wrapper-div {
   padding-left: 17rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   font-family: "Noto Sans", sans-serif;
   transition: 0.3s ease-in;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);

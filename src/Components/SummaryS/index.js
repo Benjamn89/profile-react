@@ -26,8 +26,8 @@ class SummaryS extends Component {
             But, I never took a step for making it my profession.
             <br /> <br />
             In january 2019 i decided to HUNT after what I want to myself.{" "}
-            <br />I started learning/ exploring/ deepening web development! And
-            as i going on i realize that my passion growing more and more.
+            <br />I started learning/ exploring/ deepening web developing! And
+            as i kept on i realized that my passion growing more and more.
             <br /> <br />
             Now I need you, to open the door for me for this fascinating world,
             to give me the chance to prove myself and make my dream to reality.
