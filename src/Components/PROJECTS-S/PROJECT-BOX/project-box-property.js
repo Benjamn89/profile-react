@@ -5,6 +5,7 @@ import Medallie from "../../../media/medallie.png";
 import ToyShop from "../../../media/toy-shop.png";
 import Freelance from "../../../media/freelance.jpg";
 import Oled from "../../../media/oled.png";
+import Webflow from "../../../media/webflow.png";
 
 var ProjectsBoxProperty = [
   {
@@ -55,12 +56,29 @@ var ProjectsBoxProperty = [
       medallie: Medallie,
       tools: [
         "Time to prove my design skills",
-        "Pure HTML, SASS, VanillaJS",
-        "Everything done by me (without using Wordpress/ plugins/ frameworks)",
+        "Pure html, sass, vanillajs",
+        "Everything is done by me (without wordpress/ plugins/ frameworks)",
         "Hard coding from scratch",
-        "Full responsive for all screen sizes (Tablets/ Phones/ PC)",
-        "Figma (Design tool for creating svg files)",
-        "Adobe Photoshop cc 2020",
+        "Full responsive for all screen sizes (tablets/ phones/ pc)",
+        "Figma (design tool for creating svg files)",
+        "Adobe photoshop cc 2020",
+      ],
+    },
+  },
+  {
+    objects: {
+      projectSum: "BenjaMn UI",
+      usedSkills: "Pure HTML, VanillaJS, SASS",
+      linkTo: "https://benjamn-ui.netlify.app/",
+      img: Webflow,
+      alt: "BenjaMn",
+      medallie: Medallie,
+      tools: [
+        "Pure html, sass, vanillajs",
+        "Hard coding from scratch (no jquery, aos etc...)",
+        "Full responsive for all screen sizes (tablets/ phones/ pc)",
+        "Figma (design tool for creating svg files)",
+        "Adobe photoshop cc 2020",
       ],
     },
   },
