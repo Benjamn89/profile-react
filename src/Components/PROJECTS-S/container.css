@@ -82,7 +82,8 @@
   min-height: 50px;
   width: 100%;
   border-radius: 4px;
-  background-color: #ffda79;
+  background: rgba(189, 94, 56, 0.901);
+  /* background: #452c48; */
   text-align: left;
   padding: 0 10px 10px 10px;
   line-height: 1.2;
@@ -93,6 +94,8 @@
   pointer-events: none;
   opacity: 0;
   transform: translateY(50px);
+  color: #fff;
+  letter-spacing: 1px;
 }
 .hover-project-div ul {
   font-size: 14px;
