@@ -9,6 +9,7 @@ class Military extends Component {
   render() {
     return (
       <section id="MILITARY" className="all-sections add-flex-sections">
+        <div className="military-observe" observe="5"></div>
         <h1 className="education-title-h">MILITARY</h1>
         <div className="education-warpper-first-div">
           <p className="school-details-p milit-mar-p">

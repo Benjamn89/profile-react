@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./side-bar.css";
+import "./side-bar.scss";
 import SqueezeBar from "./BAR-SQUEEZE/squeeze";
 import ProfileImg from "../../media/Myprofile.jpg";
 import SideBarTitles from "./side-bar-titles";

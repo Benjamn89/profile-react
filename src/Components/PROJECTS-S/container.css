@@ -2,6 +2,10 @@
   padding: 7vh 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+.projects-observe {
+  position: absolute;
+  top: 50%;
+}
 .project-wrapper-div {
   height: auto;
   min-height: 100vh;

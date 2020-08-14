@@ -20,6 +20,7 @@ class Skills extends Component {
   render() {
     return (
       <section id="SKILLS" className="all-sections">
+        <div className="skills-observe" observe="4"></div>
         <h1 className="education-title-h">SKILLS</h1>
         <p className="schools-skills-p skills-p">
           PROGRAMMING LANGUAGES & TOOLS

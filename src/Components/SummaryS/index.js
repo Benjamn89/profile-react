@@ -11,6 +11,7 @@ class SummaryS extends Component {
   render() {
     return (
       <section id="SUMMARY">
+        <div className="summary-observe" observe="0"></div>
         <div className="summaryS-wrapper-div">
           <h1 className="summary-name-h">
             Binyamin <span className="change-h1">Tal</span>

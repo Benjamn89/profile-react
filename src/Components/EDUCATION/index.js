@@ -9,7 +9,10 @@ class Education extends Component {
   render() {
     return (
       <section id="EDUCATION" className="all-sections">
-        <h1 className="education-title-h">EDUCATION</h1>
+        <div className="education-observe" observe="2"></div>
+        <h1 className="education-title-h" observe="2">
+          EDUCATION
+        </h1>
         <div className="education-warpper-first-div">
           <div className="education-first-inside-div">
             <p className="school-title-p">Self-Taught</p>

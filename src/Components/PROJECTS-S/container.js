@@ -10,6 +10,7 @@ class ProjectS extends Component {
   render() {
     return (
       <section id="PROJECTS">
+        <div className="projects-observe" observe="1"></div>
         <div className="project-wrapper-div">
           <h1 className="project-title-h">PROJECTS</h1>
           <div className="projectbox-wrapper-div">

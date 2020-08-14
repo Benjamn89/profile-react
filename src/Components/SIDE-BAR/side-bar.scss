@@ -30,6 +30,10 @@
   opacity: 0.5;
   transition: 0.3s;
 }
+.side-bar-p-on {
+  pointer-events: none;
+  opacity: 1;
+}
 .side-bar-p:hover {
   opacity: 1;
   cursor: pointer;

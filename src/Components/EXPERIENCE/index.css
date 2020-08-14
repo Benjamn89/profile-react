@@ -1,10 +1,14 @@
-/* #EXPERIENCE {
-  min-height: 70vh;
+#EXPERIENCE {
+  /* min-height: 70vh;
   height: auto;
   padding-left: 20rem;
   transition: 0.5s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-} */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+.experience-observe {
+  position: absolute;
+  top: 50%;
+}
 .education-first-inside-div ul {
   color: #576574;
   font-family: "Noto Sans", sans-serif;

@@ -9,6 +9,7 @@ class Exprience extends Component {
   render() {
     return (
       <section id="EXPERIENCE" className="all-sections">
+        <div className="experience-observe" observe="3"></div>
         <h1 className="education-title-h">EXPERIENCE</h1>
         <div className="education-warpper-first-div">
           <div className="education-first-inside-div">

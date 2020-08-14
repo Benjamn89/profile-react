@@ -1,7 +1,10 @@
 #SUMMARY {
   height: auto;
 }
-
+.summary-observe {
+  position: absolute;
+  top: 50%;
+}
 .summaryS-wrapper-div {
   padding-left: 17rem;
   display: flex;
