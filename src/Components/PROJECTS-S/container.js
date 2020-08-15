@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectBox from "./PROJECT-BOX/index";
 import { ProjectsBoxProperty } from "./PROJECT-BOX/project-box-property";
-import "./container.css";
+import "./container.scss";
 
 class ProjectS extends Component {
   shouldComponentUpdate() {

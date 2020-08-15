@@ -57,7 +57,7 @@ var ProjectsBoxProperty = [
       tools: [
         "Time to prove my design skills",
         "Pure html, sass, vanillajs",
-        "Everything is done by me (without wordpress/ plugins/ frameworks)",
+        "Everything was done by me (without wordpress/ plugins/ frameworks)",
         "Hard coding from scratch",
         "Full responsive for all screen sizes (tablets/ phones/ pc)",
         "Figma (design tool for creating svg files)",

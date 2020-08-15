@@ -57,10 +57,6 @@
   border-radius: 50px;
   border-color: #bd5d38 !important;
 }
-.project-visit-button:hover ~ .hover-project-div {
-  opacity: 1;
-  transform: translateY(0);
-}
 .project-visit-a {
   color: #70a1ff !important;
   text-decoration: none;
@@ -75,40 +71,38 @@
   top: 2px;
   right: -50px;
   height: 30px;
+  pointer-events: none;
+}
+
+.project-visit-button:hover ~ .hover-project-div {
+  left: 0;
+  opacity: 1;
 }
 
 .hover-project-div {
-  text-transform: none;
+  background: #bd5d38;
   position: absolute;
-  bottom: 60px;
-  left: 0;
-  height: auto;
-  min-height: 50px;
-  width: 100%;
-  border-radius: 4px;
-  background: rgba(189, 94, 56, 0.901);
-  /* background: #452c48; */
-  text-align: left;
-  padding: 0 10px 10px 10px;
-  line-height: 1.2;
-  list-style: none;
-  z-index: 10;
-  transition: 0.7s ease;
-  transform-origin: 0 100%;
-  pointer-events: none;
-  opacity: 0;
-  transform: translateY(50px);
+  top: 0;
+  left: -20%;
   color: #fff;
-  letter-spacing: 1px;
-}
-.hover-project-div ul {
-  font-size: 14px;
-  padding-bottom: 10px;
-  font-weight: 500;
-}
-.hover-project-div li {
-  padding-top: 10px;
-  font-size: 12.5px;
+  width: 100%;
+  transition: left 0.3s ease, opacity 0.8s ease;
+  text-align: left;
+  opacity: 0;
+  font-size: 13px;
+  padding: 0 15px 10px 15px;
+  ul {
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+    list-style: circle;
+  }
+  li {
+    line-height: 1.5;
+    font-weight: 500;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
