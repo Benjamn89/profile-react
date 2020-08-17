@@ -22,21 +22,16 @@ class SummaryS extends Component {
           </p>
           <p className="summary-lookingfor-p">
             My whole life I loved being in front of a computer, I was excited
-            and passionate about making things happen with.
-            <br />
-            But, I never took a step for making it my profession.
+            and passionate about making things happen with. But, I never took a
+            step for making it my profession.
             <br /> <br />
-            In january 2019 i decided to HUNT after what I want to myself.{" "}
-            <br />I started learning/ exploring/ deepening web developing! And
-            as i kept on i realized that my passion growing more and more.
+            In january 2019 i decided to HUNT after what I want to myself. I
+            started learning/ exploring/ deepening web developing! And as i kept
+            on i realized that my passion growing more and more.
             <br /> <br />
-            Now I need you, to open the door for me for this fascinating world,
-            to give me the chance to prove myself and make my dream to reality.
-            <br />
-            In return I promise that you will get my 100% every single day, you
-            will get an employee who does not give up to himself, who will push
-            to understand, improve, give and optimize his efficiency at any
-            given time.
+            Nom I am looking for a challenging career opportunity at a dynamic
+            company, with opportunities for progressive growth and professional
+            development as web developer
           </p>
           <div className="social-media-div">
             <a

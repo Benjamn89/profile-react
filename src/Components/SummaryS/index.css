@@ -44,8 +44,8 @@
   color: #576574;
   font-weight: 500;
   opacity: 0.8;
-  padding-right: 20%;
   line-height: 1.5;
+  max-width: 730px;
 }
 .social-media-div img {
   height: 50px;
@@ -66,6 +66,7 @@
 
 @media only screen and (max-width: 750px) {
   .summaryS-wrapper-div {
-    height: 80vh;
+    padding: 100px 20px 50px 20px;
+    /* height: 80vh; */
   }
 }
