@@ -44,7 +44,9 @@ class SummaryS extends Component {
                 alt="social-github"
               />
             </a>
+            <a href='https://www.linkedin.com/in/binyamintal' target='blank'>
             <img src={LinkdinImg} alt="social-linkdin" />
+            </a>
           </div>
         </div>
       </section>
