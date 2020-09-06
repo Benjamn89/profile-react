@@ -29,7 +29,7 @@ class SummaryS extends Component {
             started learning, exploring, deepening! on web developing, and as I
             kept on I realized that my passion growing more and more.
             <br /> <br />
-            Now I am reday and looking for a challenging career opportunity at a
+            Now I am ready and looking for a challenging career opportunity at a
             dynamic company, with opportunities for progressive growth and
             professional development as web developer.
           </p>
