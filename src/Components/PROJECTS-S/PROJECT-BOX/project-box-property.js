@@ -6,6 +6,7 @@ import ToyShop from "../../../media/toy-shop.png";
 import Freelance from "../../../media/freelance.jpg";
 import Oled from "../../../media/oled.png";
 import Webflow from "../../../media/webflow.png";
+import UxFree from "../../../media/ux.PNG";
 
 var ProjectsBoxProperty = [
   {
@@ -80,6 +81,21 @@ var ProjectsBoxProperty = [
         "Adobe photoshop cc 2020",
       ],
     },
+  },
+  {
+    objects: {
+      projectSum: "UX Design",
+      usedSkills: "Pure HTML, VanillaJS, SASS",
+      linkTo: "https://binyamin-ux.netlify.app/",
+      img: UxFree,
+      alt: "BenjaMn",
+      tools: [
+        "Pure html, sass, vanillajs",
+        "Hard coding from scratch",
+        "Figma",
+        "Adobe photoshop cc 2020",
+      ],
+    }
   },
   {
     objects: {

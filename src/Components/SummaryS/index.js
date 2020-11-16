@@ -21,15 +21,13 @@ class SummaryS extends Component {
             <span className="change-contact-p">NEWBENNYTAL@GMAIL.COM </span>
           </p>
           <p className="summary-lookingfor-p">
-            My whole life I loved being in front of a computer, I was excited
-            and passionate about making things happen with. But, I never took a
-            step for making it my profession.
+          My whole life I loved being in front of a computer, I was excited and passionated about making things happen with. But,
+          I never took a step forward for making it my profession.
             <br /> <br />
-            In january 2019 i decided to HUNT after what I want to myself. I
-            started learning/ exploring/ deepening web developing! And as i kept
-            on i realized that my passion growing more and more.
+            In january 2019 i decided to HUNT after what I want to myself.
+            So I started exploring web development, And as I kept on I realized that my passion growing more and more.
             <br /> <br />
-            Nom I am looking for a challenging career opportunity at a dynamic
+            Now I am looking for a challenging career opportunity at a dynamic
             company, with opportunities for progressive growth and professional
             development as web developer
           </p>
